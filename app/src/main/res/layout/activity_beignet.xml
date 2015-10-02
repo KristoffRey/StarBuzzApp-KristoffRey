@@ -1,0 +1,30 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kristoffrey.starbuzzapp_kristoffrey.Latte"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:id="@+id/imageBeignet"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:src="@drawable/beignet"
+        android:longClickable="true"
+        android:layout_gravity="top|center_horizontal" />
+
+    <TextView
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Beignet, synonymous with the English &quot;fritter&quot;, is the French term for a pastry made from deep-fried choux pastry. Beignets can also be made from other types of dough, including yeast dough."
+        android:id="@+id/textLatte"
+        android:layout_gravity="top" />
+
+</GridLayout>
